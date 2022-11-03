@@ -12,14 +12,14 @@ def rotatearay(a1,r):
         print('resultant array is',a1)
     else:
         if di==2:
-            print('di2 right')
+            #print('di2 right')
             for i in range(0,l-r): #stay
                 a2[i+r]=a1[i]
             for j in range(l-r,l): #leave
-                print(j-(l-r),j)
+                #print(j-(l-r),j)
                 a2[j-(l-r)]=a1[j]
         else:            #if r==1:
-            print('di1 left')
+            #print('di1 left')
             for i in range(r,l): #stay
                 a2[i-r]=a1[i]
             for z in range(0,r): #leave
