@@ -1,4 +1,4 @@
-#Array rotation can be done in no of ways.
+Array rotation can be done in no of ways.
 
 2/11/22
 I have implemented one where i identify which elements stay and leave and then create a temp array and fill it with all the elements in correct order.
